@@ -70,8 +70,8 @@ void SphereTest()
 
     Scene scene(Color(0.0, 0.0, 0.0));
 
-    const Vector sphereCenter(0.0, 0.0, -40.0);
-    const Vector lightDisplacement(-30.0, +120.0, +50.0);
+    const Vector sphereCenter(10.0, -5.0, -10.0);
+    const Vector lightDisplacement(-10.0, +20.0, +100.0);
 
     Sphere* sphere = new Sphere(sphereCenter, 5.5);
     sphere->SetFullMatte(Color(0.6, 0.2, 0.2));
