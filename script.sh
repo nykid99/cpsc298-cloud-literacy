@@ -9,6 +9,6 @@ service httpd start
 chkconfig httpd on
 cd /wcode/cpsc298-cloud-literacy/renderer/raytrace
 ./build
-./raytrace
-cp torus.png /var/www/html/myshape.png
-cp /wcode/cpsc298-cloud-literacy/bbae-298/index.html /var/www/html
+./raytrace block
+cp block.png /var/www/html/myshape.png
+cp /wcode/cpsc298-cloud-literacy/index.html /var/www/html/index.html
